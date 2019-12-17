@@ -9,7 +9,7 @@
  
  */
 
-#import "../Pinning/ssl_pin_verifier.h"
+#import "ssl_pin_verifier.h"
 
 #if __has_feature(modules)
 @import Foundation;
