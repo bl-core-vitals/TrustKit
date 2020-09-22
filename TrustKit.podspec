@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
     'TrustKit/TSKPinningValidatorResult.h',
     'TrustKit/TSKTrustDecision.h',
   ]
-  s.frameworks = ['Foundation', 'Security']
+	s.frameworks = ['Foundation', 'Security']
+	s.private_header_files = ["trie_node.h", "domain_registry.h"]
   s.requires_arc = true
 end
